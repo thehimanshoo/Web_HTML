@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fieldset Legend</title>
+    <style>
+        body{
+            margin-bottom: 300px;
+        }
+        form{
+            font-family: Arial, sans-serif;
+            padding: 15px;
+            width: 100%;
+        }
+        table{
+            width:100% ;
+        }
+        table td{
+            padding: 5px;
+        }
+        fieldset{
+            background: linear-gradient(45deg,hotpink,pink,hotpink);
+            box-shadow: 0 5px 10px black;
+            border: 3px solid red;
+            border-radius: 0 40px 0 40px;
+        }
+        legend{
+            background: linear-gradient(45deg,red,white,red);
+            padding: 10px 20px;
+            border: 2px solid black;
+            box-shadow: 0 5px 5px black;
+            border-radius: 0 30px 0 30px
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fieldset , Legend -->
+
+    <h1>Online Application Format</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+
+                    <td>
+                        <label for="">Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+
+                    <td>
+                        <label for="">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="">Father's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+
+
+                    <td>
+                        <label for="">Mother's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>

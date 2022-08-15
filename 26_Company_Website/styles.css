@@ -1,0 +1,104 @@
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        font-family:Arial, sans-serif;
+        margin: 0;
+        background-color: coral;
+    }
+
+    /*----------------Main Header ----------------*/
+
+    .main-header{
+        background: linear-gradient(45deg,black,darkred);
+        color: white;
+        padding: 15px 25px;
+        box-shadow: 0 0 10px black;
+    }
+
+    /*----------------Main Navbar ----------------*/
+
+    .main-nav{
+       background-color: black;
+       box-shadow: 0 0 10px black;
+        padding: 5px;
+    }
+    .main-nav a{
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .main-nav a:hover{
+        background: linear-gradient(45deg,orangered,darkslategray);
+        border-radius: 20px;
+    }
+    .main-nav a.active{
+        background: linear-gradient(45deg,darkred, darkslategray);
+        border-radius: 20px;
+    }
+
+    /*---------------- Sidebar ----------------*/
+
+    .sidebar{
+        background: linear-gradient(45deg,black,darkred);
+        padding: 10px;
+        float: left;
+        width: 200px;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+        /*--- To fix the Position---*/
+        position: sticky;
+        top: 0;
+        height: 800px;
+    }
+    .sidebar a{
+        color: white;
+        display: block;
+        padding: 15px 25px;
+        text-decoration: none;
+    }
+    .sidebar a:hover{
+        background: linear-gradient(135deg,black,darkred);
+        border-radius: 50px;
+        box-shadow: 0 0 5px white;
+    }
+
+    /*---------------- Main Content Section ----------------*/
+
+    .main-section{
+        margin-left: 220px;
+        padding: 10px;
+    }
+    .main-section article h2{
+        font-size: 35px;
+        color: darkred;
+    }
+    .main-section article p{
+        font-size: 20px;
+        color: darkslategray;
+    }
+
+    /*---------------- Main Navbar Content Section ----------------*/
+
+    .main-nav-section{
+        margin-left: 220px;
+        padding: 10px;
+    }
+
+    /*---------------- Main Footer ----------------*/
+
+    .main-footer{
+        color: white;
+        text-align: center;
+        background: linear-gradient(45deg,black,darkred);
+        border-radius: 50%;
+        width: 700px;
+        margin-left: 260px;
+        margin-top: 130px;
+    }
+    .main-footer a{
+        color: yellow;
+        text-decoration: none;
+    }

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin-bottom: 300px;
+        }
+        form{
+           background-color:lightblue;
+            box-shadow: 0 0 10px black;
+            border: 2px solid blue;
+            padding: 15px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML "Visit this site to query anything regarding HTML,CSS and JavaScript -->
+
+   <!-- Simple Form -->
+
+    <h2>Simple Form</h2>
+    <form method="post" action="https://www.google.co.in">
+        <label for="">User Name</label>
+        <input type="text" name="username">
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="password">
+        <br>
+        <label for="">Date of Birth</label>
+        <input type="date" name="date of birth">
+        <br>
+        <label for="">Country:- </label>
+        <label for="">India</label>
+        <input type="checkbox" name="origin">
+        <label for="">Other</label>
+        <input type="checkbox" name="origin">
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+
+        <h2>Simple Login form with table having Select box and Opt.Section</h2>
+        <form action="">
+           <table>
+               <tr>
+                   <td>
+                       <label for="">User Name</label>
+                   </td>
+                   <td>
+                       <input type="text">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Password</label>
+                   </td>
+                   <td>
+                       <input type="password">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Date of Birth</label>
+                   </td>
+                   <td>
+                       <input type="date">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Blood Group</label>
+                   </td>
+                  <td>
+                      <select name="" id="">
+                          <optgroup label="Blood Group">
+                              <option value="">A+</option>
+                              <option value="">A-</option>
+                              <option value="">B+</option>
+                              <option value="">B-</option>
+                          </optgroup>
+                          <optgroup label="Universal Acceptor">
+                              <option value="">AB+</option>
+                              <option value="">AB-</option>
+                          </optgroup>
+                          <optgroup label="universal Donor">
+                              <option value="">O+</option>
+                              <option value="">O-</option>
+                          </optgroup>
+                      </select>
+                  </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Select a Language</label>
+                   </td>
+                   <td>
+                       <select name="" id="">
+                           <option value="">HTML</option>
+                           <option value="">CSS</option>
+                           <option value="">JavaScript</option>
+                           <option value="">JQuery</option>
+                           <option value="">Bootstrap</option>
+                       </select>
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Nationality</label>
+                   </td>
+                  <td>
+                      <label for="">Indian</label>
+                      <input type="checkbox">
+                      <label for="">Other</label>
+                      <input type="checkbox">
+                  </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <label for="">Gender</label>
+                   </td>
+                   <td>
+                       <label for="">Male</label>
+                       <input type="radio" name="information">
+                       <label for="">Female</label>
+                       <input type="radio" name="information">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       <input type="reset" value="Reset">
+                   </td>
+                   <td>
+                       <input type="submit" value="submit">
+                   </td>
+               </tr>
+           </table>
+        </form>
+
+    <h2>Simple form with Text Area</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="">User Name</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Password</label>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Blood Group</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <optgroup label="Blood Group">
+                            <option value="">A+</option>
+                            <option value="">A-</option>
+                            <option value="">B+</option>
+                            <option value="">B-</option>
+                        </optgroup>
+                        <optgroup label="Universal Acceptor">
+                            <option value="">AB+</option>
+                            <option value="">AB-</option>
+                        </optgroup>
+                        <optgroup label="universal Donor">
+                            <option value="">O+</option>
+                            <option value="">O-</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Select a Language</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">JavaScript</option>
+                        <option value="">JQuery</option>
+                        <option value="">Bootstrap</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Nationality</label>
+                </td>
+                <td>
+                    <label for="">Indian</label>
+                    <input type="checkbox">
+                    <label for="">Other</label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Gender</label>
+                </td>
+                <td>
+                    <label for="">Male</label>
+                    <input type="radio">
+                    <label for="">Female</label>
+                    <input type="radio">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Your valuable Feedback</label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="4" maxlength="300"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <h2>Select Box with Option</h2>
+    <form action="">
+        <label for="">Select a Technology</label>
+        <select name="" id="">
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JavaScript</option>
+            <option value="">JQuery</option>
+            <option value="">Bootstrap</option>
+        </select>
+    </form>
+
+    <h2>Select Box with opt group</h2>
+    <form action="">
+        <label for="">Select a Technology</label>
+        <select name="" id="">
+            <optgroup label="Select a Technology">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JavaScript</option>
+                <option value="">JQueryL</option>
+                <option value="">Bootstrap</option>
+            </optgroup>
+        </select>
+    </form>
+
+    <h2>Text Area Box</h2>
+    <form action="">
+        <label for="">Your Comment</label>
+            <textarea name="" id="" cols="40" rows="4" maxlength="300"></textarea>
+    </form>
+
+    <h2>Data List from HTML 5</h2>
+    <form action="">
+        <label>select a Technology</label>
+        <input list="tech">
+        <datalist id="tech">
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JavaScript</option>
+            <option value="">JQuery</option>
+            <option value="">AJAX</option>
+            <option value="">PHP</option>
+            <option value="">Python</option>
+            <option value="">C++</option>
+        </datalist>
+    </form>
+</body>
+</html>

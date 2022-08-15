@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        form{
+            background: linear-gradient(45deg,red,black,red);
+            padding: 15px;
+           margin-top: 70px;
+            box-shadow: 0 5px 5px red;
+            width: 400px;
+            color: white;
+        }
+        body{
+            margin-bottom: 300px;
+        }
+        h2{
+            background: linear-gradient(180deg,black,red,black);
+            color: white;
+            font-family: "Comic Sans MS",sans-serif;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            border-radius: 50%;
+            box-shadow: 0 5px 5px red;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Types
+        1) Text Box
+        2) Password Box
+        3) Radio Button
+        4) Check Box
+        5) Normal Button
+    -->
+
+    <h2>Text Box</h2>
+    <form action="">
+        <label for="">User Name</label>
+        <input type="text" value="user name">
+    </form>
+
+    <h2>Password Box</h2>
+    <form action="">
+        <label for="">Password</label>
+        <input type="password" value="password">
+    </form>
+
+    <h2>Radio Button</h2>
+    <form action="">
+        <label for="">How's HTML</label>
+        <input type="radio" value="radio" name="feedback"> Good
+        <input type="radio" value="radio" name="feedback"> Ok
+        <input type="radio" value="radio" name="feedback"> Bad
+    </form>
+
+    <h2>Check Box</h2>
+    <form action="">
+        <label for="">Select your Hobbies</label>
+        <input type="checkbox" value="eating"> Eating
+        <input type="checkbox" value="coding"> Coding
+        <input type="checkbox" value="sleeping"> sleeping
+    </form>
+
+    <h2>Button</h2>
+    <form action="">
+        <label for="">Click me</label>
+        <input type="button" value="click me">
+    </form>
+
+    <!-- HTML5 Input Types
+        color,
+        date,
+        datetime-local,
+        email,
+        month,
+        number,
+        range,
+        search,
+        time,
+        url,
+        Week
+    -->
+
+    <h2>Select Color</h2>
+    <form action="">
+        <label for="">Color</label>
+        <input type="color" value="color">
+    </form>
+
+    <h2>Select Date</h2>
+    <form action="">
+        <label for="">Dates</label>
+        <input type="date" vlaue="date">
+    </form>
+
+    <h2>Date-time Local</h2>
+    <form action="">
+        <label for="">Date-Time</label>
+        <input type="datetime-local" value="date-time">
+    </form>
+    
+    <h2>Time</h2>
+    <form action="">
+        <label for="">Select a Time</label>
+        <input type="time">
+    </form>
+    
+    <h2>Week</h2>
+    <label for="">Select a Week</label>
+    <input type="week">
+    
+    <h2>Email</h2>
+    <form action="">
+        <label for="">Enter your Email</label>
+        <input type="email" value="email">
+        <input type="submit" value="submit">
+    </form>
+
+    <h2>Moth</h2>
+    <form action="">
+        <label for="">Month</label>
+        <input type="month" value="month">
+    </form>
+
+    <h2>Number</h2>
+    <form action="">
+        <label for="">Enter your Mob.no</label>
+        <input type="number" value="mob.number">
+    </form>
+
+    <h2>Range</h2>
+    <form action="">
+        <label for="">Range</label>
+        <input type="range" value="range">
+    </form>
+
+    <h2>Search Something</h2>
+    <form action="">
+        <label for="">Search</label>
+        <input type="search">
+    </form>
+
+    <h2>File</h2>
+    <form action="">
+        <label for="">Select a File</label>
+        <input type="file">
+    </form>
+
+    <h2>URL</h2>
+    <form action="">
+    <label for="">Enter a Website</label>
+    <input type="url">
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Nav Element</title>
+    <style>
+        body{
+            font-family: Ariel,sans-serif;
+        }
+        nav{
+            margin: 0;
+            padding: 5px;
+            background: linear-gradient(45deg,black,darkslategray);
+            box-shadow: 0 0 10px black;
+        }
+        nav a{
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        nav a:hover{
+            background-color:orangered;
+            color: white;
+        }
+        nav a.active{
+            background: linear-gradient(180deg,red,black,red);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- HTML Nav Element -->
+
+   <nav>
+       <b>
+           <i>
+               <a href="#" class="active">Home</a>
+               <a href="#">About</a>
+               <a href="#">Profile</a>
+               <a href="#">Services</a>
+               <a href="#">Contacts</a>
+           </i>
+       </b>
+   </nav>
+</body>
+</html>
